@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-customers = Customer.create([{name: "Boozy Suzy"}, {name: "Drunk Derek"}, {name: "Thirsty Thaddeus"}, {name: "Flirty Felicia"}])
+customers = Customer.create([{name: "Boozy Suzy"}, {name: "Drunk Derek"}, {name: "Thirsty Thaddeus"}, {name: "Flirty Felicia"}, {name: "Asleep Alyssa"}, {name: "Jealous Jess"}, {name: "Kept Karnik"}, {name: "Mouthy Matthew"}, {name: "Precious Patrick"}, {name: "Muscle Mike"}, {name: "Absent Andrew"}, {name: "Judgy James"}])
 items = Item.create([{name: "Mimosa", price: 5.00, icon: "🥂"},
         {name: "Bloody Mary", price: 6.00, icon: "🍹"},
         {name: "Coffee", price: 4.00, icon: "☕"},
