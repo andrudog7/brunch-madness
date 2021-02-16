@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :items, only: [:index]
   resources :customers, only: [:index]
-  
+  get '/high_scores', to: 'scores#high_scores'
   resources :users, only: [:create, :show] do 
     resources :scores, only: [:index, :create]
   end

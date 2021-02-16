@@ -1,6 +1,13 @@
 class ScoresController < ApplicationController
 
     def index
+        byebug
+        render json: score 
+    end
+
+    def high_scores 
+        score = Score.all.order(tips: :desc).limit(5)
+        render json: score.to_json(include: {user: {only: :username}})
     end
 
     def create 
