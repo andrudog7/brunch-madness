@@ -14,4 +14,5 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
   end
 end
 
+# testing this
 Rails.application.config.hosts << "brunch-madness.herokuapp.com"
