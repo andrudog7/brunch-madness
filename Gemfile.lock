@@ -156,6 +156,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-cors
   rails (~> 6.1.1)
+  rake
   spring
   tzinfo-data
 
