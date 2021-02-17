@@ -14,4 +14,4 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
   end
 end
 
-Rails.application.config.hosts << "file:///Users/andrewsmoker/Flatiron/phase4/Javascript/Javascript_project/brunch_madness_front/HTML/index.html"
+Rails.application.config.hosts << "brunch-madness.herokuapp.com"
